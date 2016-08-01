@@ -201,6 +201,9 @@
                                             <constraint firstAttribute="height" constant="43" id="a5h-pd-BYh"/>
                                         </constraints>
                                         <state key="normal" image="backbutton"/>
+                                        <connections>
+                                            <action selector="backBtnPressed:" destination="Ebe-cS-KOj" eventType="touchUpInside" id="EWp-57-zbP"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -467,7 +470,16 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="currentEvoImg" destination="Fxe-Zf-AzA" id="A6r-aA-UeD"/>
+                        <outlet property="defenseLbl" destination="szg-w8-H16" id="d4f-AS-0PY"/>
+                        <outlet property="descriptionLbl" destination="I4R-qY-rU1" id="pti-z0-KWk"/>
+                        <outlet property="evoLbl" destination="kaS-kC-VZn" id="fdX-Bz-PEZ"/>
+                        <outlet property="heightLbl" destination="gYS-gO-74t" id="aM2-pP-NdP"/>
+                        <outlet property="mainImg" destination="4tA-8t-PSq" id="abS-NC-137"/>
                         <outlet property="nameLbl" destination="dti-tj-sSv" id="et2-bF-o37"/>
+                        <outlet property="nextEvoImg" destination="2ur-gx-hM4" id="DvJ-8H-hsx"/>
+                        <outlet property="pokedexIdLabel" destination="qTW-R6-go7" id="lAQ-1t-cst"/>
+                        <outlet property="typeLbl" destination="pNI-sp-PG5" id="Wy9-BN-tp7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YTe-X6-XKu" userLabel="First Responder" sceneMemberID="firstResponder"/>
